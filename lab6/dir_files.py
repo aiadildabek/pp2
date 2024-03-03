@@ -17,7 +17,7 @@ def doublegis(path):
     print(listik)
 
 
-path = "/pp2-labki" 
+path = "C://Users//user//Desktop//semester2//PP2"
 doublegis(path)
 only_dir(path)
 only_files(path)
@@ -47,7 +47,7 @@ def checker(path):
         print("The path is not executable")
 
 
-direct = os.getcwd()
+direct = "C://Users//user//Desktop//semester2//PP2//lab6"
 pathik = os.path.join(direct, "something.txt")
 
 print(pathik)
@@ -56,7 +56,7 @@ checker(pathik)
 #ex3
 import os
 
-direct = os.getcwd()
+direct = "C://Users//user//Desktop//semester2//PP2//lab6"
 path = os.path.join(direct, "something.txt")
 
 if not os.access(path, os.F_OK):
@@ -68,7 +68,7 @@ else:
 #ex4
 import os 
 
-direct = os.getcwd()
+direct = "C://Users//user//Desktop//semester2//PP2//lab6"
 path = os.path.join(direct, "something.txt")
 
 f, counter = open(path, "r"), 0
@@ -114,7 +114,7 @@ def checker(path):
     
     return True
 
-direct = os.getcwd()
+direct = "C://Users//user//Desktop//semester2//PP2//lab6"
 path = os.path.join(direct, "something3.txt")
 
 if(checker(path)):
